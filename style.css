@@ -1,0 +1,135 @@
+body{
+    margin: 0%;
+}
+#zoom:hover{
+    display: block;
+    margin-right: 20px;
+    zoom: 1.1;
+}
+.Right:hover{
+    zoom: 1.1;
+    right: 20%;
+}
+.bold{
+    font-weight: bold;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 102px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      margin: 0;
+    }
+    .header{
+        background-color: #FBF7ED;
+
+    }
+    #logo{
+        width:30%;
+        margin-top: 0.5px;
+    }
+    #hidden{
+        display: none;
+    }
+    #login{
+        display: none;
+    }
+    #button1{
+        margin-left: 300px;
+        margin-top: 45px;
+        padding: 10px;
+    }
+    #the{
+        font-size: 30px;
+        margin-top: 250px;
+    }
+    #needed{
+        font-size: 12px;
+        margin-top: 350px;
+        
+    }
+    #input{
+        padding: 10px;
+        border-radius: 10px;
+        border-color: black;
+
+    }
+    #button2{
+        padding: 10px;
+        margin-left: 300px;
+    }
+    #video1{
+        width: 400px;
+        margin-left: 10px;
+        position: absolute;
+        margin-top: 500px;
+        background-color: #FBF7ED;
+        padding: 40px;
+    }
+    #greenb{
+        margin-top: 780px;
+        height: 2000px;
+    }
+    #photo1{
+        width: 120px;
+    }
+    #food{
+        display: none;
+    }
+    #photo2{
+        width: 120px;
+        margin-left:250px ;
+        position: absolute ;
+    }
+    #photo3{
+        width: 120px;
+        margin-top: 160px;
+        margin-left: 80px;
+    }
+    #photo4{
+        width: 120px;
+        margin-top: 160px ;
+        margin-left: 250px;
+    }
+    #photo5{
+        display: none;
+    }
+    #take{
+        margin-top: 400px ;
+    }
+    #none{
+        display: none;
+    }
+    #white1{
+        font-size: 20px;
+    }
+    #one{
+        font-size: 13px;
+    }
+    #video2{
+        width: 350px;
+        margin-top: 70px;
+    }
+    #sell{
+        margin-left: 50px;
+        text-align: center;
+        margin-top: 360px;
+        font-size: 20px;
+    }
+    #use{
+        margin-left: 70px;
+        margin-top: 400px;
+        font-size: 10px;
+        text-align: center;
+    }
+    #use2{
+        text-align: center;
+        margin-right: 50px;
+    }
+
+  }
